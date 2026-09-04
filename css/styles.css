@@ -175,6 +175,8 @@ footer a:hover{color:#fff}
 .footer-logo img{height:40px;width:auto;display:block}
 .creditos{border-top:1px solid rgba(255,255,255,.12);margin-top:34px;padding-top:22px;
   font-size:12.5px;color:#8E86A5}
+.assinatura{background:rgba(0,0,0,.22);margin:26px 0 -34px;padding:14px 0;
+  font-size:12.5px;color:#8E86A5;text-align:center;letter-spacing:.2px}
 
 /* whatsapp flutuante */
 .flutua{position:fixed;right:22px;bottom:22px;z-index:80;width:58px;height:58px;
