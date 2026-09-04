@@ -129,13 +129,12 @@ section{padding:86px 0}
 
 /* equipe */
 .equipe{background:var(--lilas-2)}
-.perfis{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:900px;margin:0 auto}
+.perfis{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,284px));gap:24px;
+  max-width:900px;margin:0 auto;justify-content:center}
 .perfil{background:#fff;border:1px solid #EEE7F6;border-radius:20px;overflow:hidden}
 .perfil .foto{aspect-ratio:1;background:var(--lilas);display:grid;place-items:center;
   overflow:hidden}
 .perfil .foto img{width:100%;height:100%;object-fit:cover}
-.perfil .vazio{color:var(--roxo-claro);font-size:14px;text-align:center;padding:20px;
-  font-weight:600}
 .perfil .info{padding:22px}
 .perfil h3{font-size:19px;margin-bottom:5px}
 .perfil .cargo{font-size:14px;color:var(--roxo-claro);font-weight:600}
